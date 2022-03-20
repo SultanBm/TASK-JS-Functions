@@ -10,7 +10,7 @@ function greet(name) {
   // Your code here
   console.log(`Hello ${name}`);
 }
-let name = "Hamza "
+let name = "Hamza ";
 greet(name);
 /**
  * isOdd(n):
@@ -28,6 +28,7 @@ function isOdd(n) {
   } else {
     return false;
   }
+  //return n % 2 !== 0;
 }
 console.log(isOdd(9));
 
@@ -47,6 +48,7 @@ function oddsSmallerThan(n) {
   } else {
     return n / 2;
   }
+  //return parseInt(n/2);
 }
 
 console.log(oddsSmallerThan(15));
